@@ -1,0 +1,15 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+      "Name": "brokkli/code-server-node",
+      "Update": "true"
+    },
+    "Ports": [
+      {
+        "ContainerPort": "8080",
+        "HostPort": "80"
+      }
+    ],
+    "Volumes": [
+    ]
+  }
